@@ -35,6 +35,18 @@ http://localhost:8080/api/v1/person
 
 ---
 
+### ⚙ REST API
+
+| Endpoint: | Method: | Descrição: | Response Status Code: |
+|-----------|---------|--------------|-----------------------|
+| /person | GET  | Retorna umaa lista com todas as pessoas. | 200 / 404 |
+| /person/{id} | GET | Retorna uma pessoa específica. | 200 / 404 |
+| /person | POST | Cria uma nova entidade Person no sistema. | 201 / 404 |
+| /person/{id} | PUT | Modifica uma pessoa específica.| 200 / 404 |
+| /person/{id} | DELETE | Deleta uma pessoa específica. | 200 / 404 |
+
+---
+
 ### 📚 Referências
 
 - [Java SE Development Kit 11 Download](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html)
